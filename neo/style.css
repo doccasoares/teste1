@@ -1,0 +1,139 @@
+/* CSS RESET - serve para zerar o navegador */ 
+* /* seletor universal */{
+    padding:0;/* margem interna*/
+    margin:0;/* margem externa*/
+    vertical-align:baseline;/* base de todos os elementos*/
+    list-style:none;/* zera todo etilo de lista*/
+    border:0;/* zera todo tipo de borda*/
+    }
+
+
+/* os comandos de id e classe inseridos em body são para te instigar a pesquisar, nessa aula que abodaremos isso mais superficialmente */ 
+
+body { background: #d2d2c1 url('pexels.jpg') ;/* cor de fundo e imagem de fundo*/
+
+    font: 16px Arial, Helvetica, sans-serif;/* margem interna*/}
+    
+main {
+      width: 1100px;/* largura*/
+      height: auto;/* altura, nesse caso a propiredade auto se refere ao crescimento da estrutura de acordo com o conteudo que for inserido*/
+      position: relative; /* posicionamento*/
+	  margin: 75px auto 0 auto;/* margem e posicionamento atuam juntos, centalizando a estrutura main*/
+    }
+
+header {
+        background-color: #4F83FA;
+        padding: 18px;
+        
+      }
+    
+nav {
+      background-color: #4F83FA;
+      padding: 18px;
+      
+    }
+    
+section {background: #D6E2FF ;
+                padding: 10px;
+    
+    }
+
+footer {background: #4F83FA ;
+        padding: 10px;
+
+}
+/* tratamento de links*/
+a:link
+{
+	color: #FFFFFF ;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 80px;
+	}
+a:visited {
+	text-decoration: underline;
+    color: #6c4d4d ;
+	}
+a:hover {
+	text-decoration: underline;
+	color: #FFFFFF
+	}
+a:active {
+	text-decoration: none;
+    color: #e7dd13
+	}
+
+/* -----*/
+h1 { color: #e2e6ef ;
+    font-size: 1.2em;
+
+}
+
+li { display: inline-block;
+
+}
+#conteudo h1 {text-align: center; 
+    }
+    /* abaixo temos uma classe determinando uma entralização de conteúdo */ 
+.centralizar {text-align: center;}
+    
+/* abaixo temos uma id destinada e conter a imagem de topo e uma classe determinando o tamanho dessa imagem, que está subordinada ao valor declarado na ID */ 
+#imagem {width: 1100px;
+        height: 300px; 
+    }
+.imagem_regular{
+        width: 100%;
+        height: 100%;
+    }
+    /* abaixo iniciamos elementos de formlário */ 
+    form {
+        font-family: Verdana;
+        font-size: 15px;
+        background-color: #4F83FA;
+        max-width: 500px;
+        padding: 5px;
+        position: relative; /* posicionamento*/
+	    margin: 15px auto 0 auto;/* margem e posicionamento atuam juntos, centalizando a estrutura form*/
+    }
+    
+    input, textarea { /* seletores separados por vírgula deixam claro que as propriedades serão atribuídas a ambos */ 
+        width: 200px;
+        color: black;
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid;
+    }
+    
+    input:hover, textarea:hover {
+        border-color: #000066;
+        background-color: #66FFFF;
+        color: black;
+        font-weight: bold;
+    }
+    
+    textarea {
+        width: 400px;
+        height: 150px;
+
+    }
+    
+    label{
+        margin: 10px;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    fieldset{
+        border: solid;
+        margin: 10px;
+    }
+    legend {
+        margin: 10px;
+        color: #97da44;
+        font-weight: bold;
+    }
+    table, th, td{
+        border: solid;
+        position: relative; 
+	    margin: 5px auto 0 auto;
+
+    }
